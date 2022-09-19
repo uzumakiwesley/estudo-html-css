@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho= introduz algo -->
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem</h3>
+        <nav> <!-- agrupa links de navegação -->
+            <ol>
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>        
+    </header>
+    <main> <!-- Conteúdo principal da página-->
+           <section> <!-- separa tópicos e conteúdos-->
+            <h3>Uso de tags</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium necessitatibus pariatur a corrupti eligendi, animi velit, inventore rem earum non voluptates. Dignissimos nisi, itaque officia molestias culpa natus mollitia sit ullam architecto in repellendus. Ad sed perspiciatis autem, iure, quos repellendus deserunt impedit nulla dignissimos neque aliquam est enim!</p> 
+            </section>    
+        <section>
+            <h3>Uso de tabelas</h3>
+            <table border="1" cellpadding="3" style="border-collapse: collapse";>
+                <thead> <!-- cabeçalho da tabela -->
+                    <tr>
+                        <tr>
+                            <th colspan="4">Usuários</th> <!-- colspan duração de coluna que a info vai ocupar (2, 3, 100 linhas)-->
+                        </tr>
+                        <th>tipo</th> <!-- Table row -->
+                        <th>Nome</th> <!-- Table header -->
+                        <th>CPF</th>
+                        <th>Data Nasc.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Funcionário</td> <!-- rowspan duração de linha que a info vai ocupar (2, 3, 100 linhas)-->
+                        <td>Wesley Ribeiro</td> <!-- Table data -->
+                        <td>333.444.555.67</td>
+                        <td>18/07/1987</td>
+                    </tr>
+                    <tr>
+                        <td>Alice Albuquerque</td> <!-- Table data -->
+                        <td>331.442.553.67</td>
+                        <td>20/03/1977</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Clientes</td>
+                        <td>Mario Armário</td> <!-- Table data -->
+                        <td>313.424.525.87</td>
+                        <td>28/10/1887</td>
+                    </tr>
+                    <tr>
+                        <td>Chico Amaral</td> <!-- Table data -->
+                        <td>123.456.789.00</td>
+                        <td>08/01/1987</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <table border="1" cellpadding="4" style="border-collapse: collapse;">
+            <tr>
+                <td colspan="2">celula 1-1</td>
+                <td>celula 1-3</td>
+            </tr>
+            <tr>
+                <td>celula 2-1</td>
+                <td>celula 2-2</td>
+                <td>celula 2-3</td>
+            </tr>
+            </table>
+        </section>  
+</main>   
+<hr /> <!-- horizontal rule -->
+<footer> <!-- Dá informações sobre autoria/encerra o conteúdo -->
+    &copy; <!-- copyrigths -->
+    <script>
+        // Comentário
+        document.write(new Date().getFullYear())
+    </script>
+    Soulcode Academy
+
+
+</footer>          
+        
+        
+
+    
+</body>
+</html>
