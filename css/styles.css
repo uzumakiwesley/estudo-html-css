@@ -1,0 +1,53 @@
+/*
+Para usar o css devemos linkar ele ao html destino
+*/
+
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* tipos de seletores básicos
+1) Por elemento
+2) Por id (#) => estilização única
+3) Por class (.) estilização para vários
+*/
+
+h1, h2, h3{
+    color: white
+}
+
+#meu-h1 {
+    font-weight: 100;
+}
+
+/* 
+posso aplicar a class em vários elementos diferentes.
+*/
+
+.cabecalho {
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 16px;        
+}
+
+.banner {
+    width: 100%;
+    border-radius: 16px;
+}
+
+    
+
